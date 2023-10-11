@@ -1,0 +1,281 @@
+@media (max-width: 1200px) {
+  .hero-img {
+    width: 400px;
+  }
+  .hero-nav h1 {
+    font-size: 47px;
+  }
+  .hero-nav p {
+    width: 528px;
+    font-size: 17px;
+  }
+  .header-block img {
+    width: 170px;
+  }
+  .about img {
+    width: 560px;
+  }
+
+  .work-box {
+    width: 181px;
+    height: 200px;
+  }
+  .work-box img {
+    width: 56px;
+  }
+  .what-nav-img {
+    width: 460px;
+  }
+  .what-nav h1 {
+    font-size: 30px;
+  }
+  .what-nav p {
+    width: 444px;
+    font-size: 14px;
+  }
+  .footer-box {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-img {
+    width: 302px;
+  }
+  .hero-nav h4 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .hero-nav h1 {
+    font-size: 32px;
+  }
+  .hero-nav p {
+    width: 470px;
+    font-size: 14px;
+  }
+  .hero-nav .get {
+    padding: 15px 22px;
+
+    font-size: 16px;
+  }
+  .hero-nav .video {
+    padding: 15px 20px;
+    font-size: 16px;
+
+    font-weight: 550;
+  }
+  .about img {
+    width: 445px;
+  }
+  .work-box {
+    width: 143px;
+    height: 185px;
+  }
+  .work-box img {
+    width: 48px;
+  }
+  .work-box h3 {
+    width: 168px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .work-box p {
+    width: 155px;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .what-nav-img {
+    width: 372px;
+  }
+  .what-nav h1 {
+    width: 481px;
+  }
+  .footer-box {
+    width: 163px;
+  }
+  .footer-box p {
+    width: 172px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header button {
+    padding: 15px 8px;
+  }
+  .hero {
+    display: flex;
+    justify-content: space-around;
+  }
+  .about-nav p {
+    width: 425px;
+  }
+
+  .footer-logo p {
+    width: 222px;
+  }
+  .footer-box h3 {
+    width: 147px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-logo {
+    display: none;
+  }
+  .hero {
+    flex-wrap: wrap;
+  }
+
+  .hero-img {
+    width: 400px;
+    padding-top: 40px;
+  }
+
+  .header-block img {
+    width: 151px;
+  }
+  .about {
+    flex-wrap: wrap;
+  }
+  .work-block {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .work-box {
+    width: 143px;
+    height: 185px;
+  }
+  .what {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-block {
+    width: 640px;
+    flex-wrap: wrap;
+  }
+  .footer-box p {
+    width: 129px;
+    font-size: 12px;
+  }
+  .footer-box h1 {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    text-align: center;
+  }
+  .hero-nav p {
+    width: 587px;
+  }
+  .header-block img {
+    width: 94px;
+  }
+  .about img {
+    width: 399px;
+    padding-bottom: 30px;
+  }
+  .what-nav h1 {
+    width: 456px;
+  }
+  .footer-block {
+    /* flex-direction: column; */
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-img {
+    width: 170px;
+  }
+  .header button {
+    padding: 10px 8px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  #hero {
+    padding: 10px 0;
+  }
+  .hero-nav h1 {
+    font-size: 22px;
+  }
+  .hero-nav h4 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .hero-nav p {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+  }
+  .hero-nav .get {
+    padding: 8px 9px;
+    font-size: 12px;
+  }
+  .hero-nav .video {
+    padding: 6px 5px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .hero-img {
+    width: 270px;
+  }
+  .header-block img {
+    width: 55px;
+  }
+  #about {
+    padding: 30px 0;
+  }
+  .about img {
+    width: 255px;
+  }
+  .about-nav h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .about-nav p {
+    width: 260px;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .about-nav button {
+    padding: 9px 6px;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  #work {
+    padding: 30px 0;
+  }
+  .what {
+    text-align: center;
+  }
+  .what-nav h1 {
+    font-size: 20px;
+    font-weight: 500;
+    width: 220px;
+    margin-left: 40px;
+  }
+  .what-nav p {
+    width: 242px;
+    font-size: 10px;
+
+    margin: 46px 0 30px 20px;
+  }
+
+  .what-nav-img {
+    width: 260px;
+  }
+  .footer-logo {
+    margin-left: 14px;
+  }
+
+  .footer-box {
+    display: none;
+  }
+}
